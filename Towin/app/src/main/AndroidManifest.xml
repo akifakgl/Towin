@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashil.Towin">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name="com.ashil.Towin.global"
+        android:theme="@style/AppTheme"
+        >
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4823108984271958~2987420254" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name="com.ashil.Towin.anim" android:screenOrientation="locked" ></activity>
+        <activity android:name="com.ashil.Towin.paracekme" android:screenOrientation="locked" />
+        <activity android:name="com.ashil.Towin.bilgi" android:screenOrientation="locked" />
+        <activity android:name="com.ashil.Towin.anasayfa"  android:screenOrientation="locked"/>
+        <activity android:name="com.ashil.Towin.homepage" android:screenOrientation="locked"/>
+        <activity android:name="com.ashil.Towin.kayitol" android:screenOrientation="locked" />
+        <activity android:name="com.ashil.Towin.MainActivity" android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

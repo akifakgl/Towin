@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C5A71"
+    tools:context="com.ashil.Towin.bilgi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:text="PARA NASIL KAZANILIR"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="Coin kazan butonuna tıkladıktan sonra önünüze gelen&#xD;kazanç butonlarına tıklayıp&#xD;gelen reklamlara tıklayabilir veya direkt olarak kapata bilirsiniz,&#xD;bu sayede coin biriktirmiş olacaksınız.&#xD;Kazanç butonları bitince
+ana menüye dönebilir,&#xD;bu adımları tekrarlayabilir ve kazanmaya devam edebilirsiniz."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="PARA ÇEKME" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Coin miktarınız 1000 veya üzeri olduğunda para çekme talebi oluştura bilirsiniz.&#10;&#10;Para çekme talebi oluşturduktan sonra 5 iş günü içerisinde  para transferi başlatılacaktır.&#10;&#10;PARA ÇEKME TALEBİ OLUŞTURDUKTAN SONRA PARANIZ YATMADAN VEYA BİZİMLE İLETİŞİME GEÇMEDEN TEKRAR TALEP OLUŞTURURSANIZ BİR ÖNCEKİ TALEBİN COİNLERİ YANACAKTIR!!!&#10;&#10;Bankaların uyguladığı para transfer ücretleri size aittir gönderilecek paradan kesilecektir.&#10;&#10;Çalıştığımız banka Ziraat bankasıdır.&#10;&#10;2000 üzeri coinlerde transfer ücreti alınmamaktadır." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="İLETİŞİM" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Bize ulaşabileceğiniz mail adresi towinbilgi@gmail.com&#10;&#10;Herhangi bir sorunda bize mail atabilirsiniz &#10;&#10;İş günleri içerisinde size geri dönüş sağlanacaktır." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="COİN-TL DÖNÜŞÜMÜ" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="1000 coin 10 tl ye denk gelmektedir." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

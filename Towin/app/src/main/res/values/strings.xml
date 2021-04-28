@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Towin</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="ad_id_interstitial">ca-app-pub-4823108984271958/2567783703</string>
+
+</resources>

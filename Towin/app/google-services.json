@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "214502380178",
+    "firebase_url": "https://my-applicationsdf.firebaseio.com",
+    "project_id": "my-applicationsdf",
+    "storage_bucket": "my-applicationsdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214502380178:android:7619688425324018da0c4b",
+        "android_client_info": {
+          "package_name": "com.ashil.Towin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214502380178-b6h0ro0nib72s55o0trgu6b0jbnoum3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU7DDGzJ9omhOi2GG4BDEVRo-lmgYsGAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214502380178-b6h0ro0nib72s55o0trgu6b0jbnoum3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
